@@ -44,7 +44,7 @@ Submited entries will be automatically detected. When a match is found, the matc
 
 Set the URL match to limit the pages the extension runs on; the extension will only scan pages that contain the query in their URL.
 
-To test during development, I submitted the name `Example Domain` to the DNR list, then navigated to [example.com](http://www.example.com).
+To test during development, I submitted the name "Example Domain" to the DNR list, then navigated to: [example.com](http://www.example.com).
 
 The "Import File" and "Export File" fields are not yet implemented.
 
