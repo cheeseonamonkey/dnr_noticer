@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-inline' 'wasm-unsafe-eval';">
+   <title>DNR</title>
+</head>
+
+<body>
+   <br />
+
+
+
+
+
+   <h2>DNR list:</h2>
+
+   <table id="tableList" style="min-height: 100px;">
+      <!-- Table will be populated by JavaScript -->
+   </table>
+
+
+   <h3>Add entry:</h3>
+
+   <!-- Form for adding new guest entries -->
+   <form id="addEntryForm" style="margin: 2px; padding: 3px; border: 1px solid black;">
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" required>
+      <br />
+      <label for="commentInput">Comment:</label>
+      <textarea id="commentInput" required></textarea>
+      <br />
+      <button float="right" type="submit">Add New</button>
+   </form>
+
+   <br />
+   <hr />
+   <br />
+
+   <h3>Settings:</h3>
+
+   <div style="padding: 1px; border: 1px solid black; margin: 1px;">
+      <label for=" importFile">Import File:</label>
+      <input disabled type="file" id="importFile">
+      <br />
+      <label for="exportFile">Export File:</label>
+      <input disabled type="file" id="exportFile">
+   </div>
+   <br />
+
+   <form id="settingsForm">
+      <label for="urlMatch">Import File:</label>
+      <input type="text" id="urlMatch">
+      <button type="submit">Submit</button>
+   </form>
+
+   <script src="popup.js"></script>
+
+</body>
+
+</html>

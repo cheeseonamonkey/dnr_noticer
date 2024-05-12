@@ -1,0 +1,32 @@
+{
+   "name": "DNR Noticer",
+   "manifest_version": 3,
+   "version": "0.1",
+   "description": "Manage local DNR list, draw attention to recorded names.",
+   "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+   ],
+   "host_permissions": [
+      "http://*/*",
+      "https://*/*",
+      "file://*/*"
+   ],
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+         "16": "nobg.png",
+         "48": "nobg.png",
+         "128": "nobg.png"
+      }
+   },
+   "icons": {
+      "16": "nobg.png",
+      "48": "nobg.png",
+      "128": "nobg.png"
+   }
+}
