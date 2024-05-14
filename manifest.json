@@ -19,14 +19,14 @@
    "action": {
       "default_popup": "popup/popup.html",
       "default_icon": {
-         "16": "nobg.png",
-         "48": "nobg.png",
-         "128": "nobg.png"
+         "16": "nobg.jpg",
+         "48": "nobg.jpg",
+         "128": "nobg.jpg"
       }
    },
    "icons": {
-      "16": "nobg.png",
-      "48": "nobg.png",
-      "128": "nobg.png"
+      "16": "nobg.jpg",
+      "48": "nobg.jpg",
+      "128": "nobg.jpg"
    }
 }

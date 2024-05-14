@@ -11,7 +11,7 @@ To manually install the Chrome extension using the `.crx` file, follow these ste
 1. **Download the CRX File**
    - Download the `.crx` file from the releases page.
 
-2. **Open Extensions Page**
+2. **Open Extensions Page**push 
    - In Chrome, click on the menu (three vertical dots in the top-right corner).
    - Go to `More Tools > Extensions`
         _or_
